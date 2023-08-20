@@ -19,7 +19,7 @@ client = discord.Client(command_prefix='!', intents=intents)
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
-# test sending a message and receiving something from the bot
+# test sending and receiving a message from the bot
 '''@client.event
 async def on_message(message):
     if message.author == client.user:
